@@ -23,7 +23,7 @@ browser = Browser(
 			# no_viewport=True,
 			browser_window_size={
 				'width': 1280,
-				'height': 1100,
+				'height': 1000,
 			},
 			# trace_path='./tmp/web_voyager_agent',
 		),

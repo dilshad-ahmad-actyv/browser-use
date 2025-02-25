@@ -36,7 +36,7 @@ class MessageManager:
 		image_tokens: int = 800,
 		include_attributes: list[str] = [],
 		max_error_length: int = 400,
-		max_actions_per_step: int = 10,
+		max_actions_per_step: int = 50,
 		message_context: Optional[str] = None,
 	):
 		self.llm = llm

@@ -66,7 +66,7 @@ class BrowserContextConfig:
 
 		browser_window_size: {
 				'width': 1280,
-				'height': 1100,
+				'height': 1000,
 			}
 			Default browser window size
 
@@ -107,7 +107,7 @@ class BrowserContextConfig:
 
 	disable_security: bool = False
 
-	browser_window_size: BrowserContextWindowSize = field(default_factory=lambda: {'width': 1280, 'height': 1100})
+	browser_window_size: BrowserContextWindowSize = field(default_factory=lambda: {'width': 1280, 'height': 1000})
 	no_viewport: Optional[bool] = None
 
 	save_recording_path: str | None = None
